@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дмитрий Запаренко](https://up.htmlacademy.ru/htmlcss/32/user/1927967).
-* Наставник: [Антон Савельев] (https://htmlacademy.ru/profile/id1101501).
+* Наставник: [Антон  Савельев] (https://htmlacademy.ru/profile/id1101501).
 
 ---
 
