@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756257;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.page-header {
+  color: #000000;
+  background: #FFFFFF;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.main-index {
+  font-family: "PT Sans", sans-serif;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  text-transform: none;
+  background-image: url("../image/titul.jpg");
+  background-size: 100% 18%;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  font-family: "PT Sans", sans-serif;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  text-transform: none;
+  background-image: url("../image/Vector.svg");
+  background-position-y: top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.heading-description {
+  font-family: "PT Sans", sans-serif;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.advantages-list {
+  text-align: center;
+ }
+
+.advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantage-description {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+.index-square {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
+.index-square2 {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.index-square3 {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.index-square4 {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.index-square5 {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
+.index-square6 {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.index-square7 {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.index-square8 {
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.newsletter {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000000; 
+  background-image: url("../image/footer.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.footer-social-item a {
+  color: #83B3D3;
+}
+
+.htmlacademy-link {
+  color: #000000;
+}
+
+.inner-block {
+  font-family: "PT Sans", sans-serif;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  text-transform: none;
+  background-image: url("../image/catalog-background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.search-title {
+  font-family: "PT Sans", sans-serif;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.sorting-container {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.product-card {
+  background-color: #ffffff;
+}
+
+.product-card-title {
+  font-weight: 700;
+  color: #000000;
+}
+
+.product-card-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23,29px;
+  color: #333333;
+  text-transform: lowercase;
+}
+
+.newsletter-catalog {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF; 
+}
+
