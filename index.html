@@ -7,19 +7,22 @@
 </head>
 <body>
     <header class="page-header">
-        <nav class="page-navigation">
+        <nav class="navigation">
             <ul class="navgation-list">
                 <li class="navigation-item">
-                    <a class="navigation-link" href="homepage.html/"">Главная</a>
+                    <a class="navigation-link">Главная</a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="aboutsedona.html/">О Седоне</a>
+                    <a class="navigation-link" href="#">О Седоне</a>
                 </li>
                 <li class="navigation-item">
                     <a class="navigation-link" href="hotels.html/">Гостиницы</a>
                 </li>
             </ul>
-            <ul class="navigation-list" class="navigation-user">
+            <div class="page-logo">
+                <img class="image" src="image/sedona.png" width="138" height="70" alt="логотип страницы">
+            </div>
+            <ul class="navigation-list navigation-user">
                 <li class="navigation-item">
                     <a class="navigation-link" href="#"/>
                         <span class="visually-hidden">Поиск</span>
@@ -36,24 +39,29 @@
             </ul>
         </nav>
     </header> 
-<main class="main-index">
-    <p>Добро пожаловать в грандиозный</p>
-        <h1 class="visually-hidden">Седона «потому что Гранд Каньон отстой!»</h1>
-        <h2 class="visually-hidden">Заголовок</h2>
+<main class="main-container main-index">
+    <div class="page-container">
+        <p class="visually-hidden" hidden>Добро пожаловать в грандиозный</p>
+        <h1 class="visually-hidden" hidden>Седона «потому что Гранд Каньон отстой!»</h1>
+        <h2 class="visually-hidden" hidden>Заголовок</h2>
         <img class="logo" src="image/logo (1).svg" width="458" height="352" alt="Логотип «Седона»">
             <p class="heading"><b>Седона — небольшой городок в Аризоне, заслуживающий большего!</b></p>
             <p class="heading-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-        <div class="index-square">
+            <div class="index-square">
 <section class="advantages">
     <h2 class="visually-hidden">Преимущества</h2>
-        <ul class="advantages-list">
-            <li class="advantages-item">
-                <h3 class="advantages-title">Настоящий городок</h3>
-                    <p>-№1-</p>
-                    <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+    <ul class="advantages-list">
+        <div class="image-1">
             <img class="image" src="image/Index jpeg/photo-1 (2).jpg" width="800" height="384" alt="Вид на горы и дом">
-            </li>
+        <li class="advantages-item">
+            <h3 class="advantages-title">Настоящий городок</h3>
+                <p>-№1-</p>
+                <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                </li>
         </div>
+    </ul>
+</div>
+    <ul class="advantages-list-block-1"> 
         <div class="index-square2">
             <li class="advantages-item">
                 <h3 class="advantages-title">Жилье</h3>
@@ -64,7 +72,7 @@
             <li class="advantages-item">
                 <h3 class="advantages-title">Еда</h3>
                     <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-                </li>
+            </li>
         </div>
         <div class="index-square4">
             <li class="advantages-item">
@@ -73,17 +81,22 @@
                         <img class="image" alt="Вид гор и каньона">
             </li>
         </div>
-        </ul>
+    </ul>
+</section>
     <h2 class="visually-hidden">Преимущества</h2>
+    <section class="image-2">
+        <img class="image" src="image/Index jpeg/photo-2 (1).jpg" width="800" height="384" alt="Вид гор и каньона">
         <ul class="advantages-list">
             <div class="index-square5">
                 <li class="advantages-item">
                     <h3 class="advantages-title">Там есть мост дьявола</h3>
                         <p>-№2-</p>
                         <p class="advantages-description">Да, по нему можно пройти! Если Вы осмелитесь, разумеется</p>
-                        <img class="image" src="image/Index jpeg/photo-2 (1).jpg" width="800" height="384" alt="Вид гор и каньона">
                 </li>
             </div>
+        </ul>
+    </section>
+        <ul class="advantages-list-block-2"> 
             <div class="index-square6">
                 <li class="advantages-item">
                     <h3 class="advantages-title">Небольшая площадь</h3>
@@ -119,8 +132,10 @@
                             <button class="button newsletter-button" type="Подписаться"></button>
             </form>
 </section>
+</div>
 </main>
-<footer>
+<footer class="page-footer">
+    <div class="page-footer-container"
     <section class="footer-social">
         <ul class="footer-social-list">
             <li class="footer-social-item">
@@ -138,10 +153,19 @@
                     <span class="visually-hidden">Ютуб</span>
                 </a>
             </li>
-        </ul>
+            </ul>
+            </section>
+            <section class="footer-contact">
+            <li class="footer-social-item">
                 <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+            </li>
+            </section>
+            <section class="footer-html">
                 <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
+            </section>
+        </ul>
     </section>
+    </div>
 </footer>
 </body>
 </html>
